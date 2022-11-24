@@ -17,4 +17,5 @@ def read_json(filename:str) -> dict:
     data = json.loads(f)
 
     return data
+print(read_json('users.json'))
   
